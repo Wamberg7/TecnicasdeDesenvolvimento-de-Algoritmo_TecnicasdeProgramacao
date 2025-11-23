@@ -1,0 +1,172 @@
+:root {
+    --berg-primary: #4c6ef5;
+    --berg-secondary: #8c97b7;
+    --berg-dark: #1f2232;
+    --berg-light: #f4f6fb;
+    --berg-success: #2fb380;
+    --berg-danger: #ff5c5c;
+}
+
+body {
+    font-family: "Segoe UI", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--berg-light);
+    color: var(--berg-dark);
+}
+
+.navbar-gradient {
+    background: linear-gradient(120deg, #1d253b 0%, #3a4c88 50%, #4c6ef5 100%);
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.page-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--berg-dark);
+    margin: 0;
+}
+
+.card-elevated {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 15px 40px rgba(31, 34, 50, 0.08);
+    background: #fff;
+}
+
+.table-modern thead th {
+    background: rgba(76, 110, 245, 0.1);
+    border: 0;
+    color: var(--berg-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8rem;
+}
+
+.table-modern tbody tr {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.table-modern tbody tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(31, 34, 50, 0.05);
+}
+
+.badge-soft {
+    background: rgba(76, 110, 245, 0.12);
+    color: #2c3c8c;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.badge-neutral {
+    background: rgba(140, 151, 183, 0.2);
+    color: #4b5567;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.btn-berg {
+    background: var(--berg-primary);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding-inline: 1.5rem;
+    box-shadow: 0 10px 20px rgba(76, 110, 245, 0.3);
+}
+
+.btn-berg:hover {
+    color: #fff;
+    background: #3b5bdb;
+}
+
+.btn-ghost {
+    border-radius: 999px;
+    border: 1px solid rgba(76, 110, 245, 0.4);
+    color: var(--berg-primary);
+    background: transparent;
+}
+
+.btn-ghost:hover {
+    background: rgba(76, 110, 245, 0.08);
+    color: var(--berg-primary);
+}
+
+.btn-action {
+    border-radius: 999px;
+    font-weight: 600;
+    min-width: 90px;
+}
+
+.hero-card {
+    border-radius: 1.2rem;
+    background: linear-gradient(135deg, #4c6ef5 0%, #6c5ce7 100%);
+    color: #fff;
+    padding: 2.5rem;
+    box-shadow: 0 20px 45px rgba(76, 110, 245, 0.35);
+}
+
+.hero-card h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.hero-card p {
+    font-size: 1.05rem;
+    opacity: 0.9;
+}
+
+.footer-minimal {
+    background: #111423;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-minimal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-section label {
+    font-weight: 600;
+    color: #4b5567;
+}
+
+.form-section .form-control,
+.form-section .form-select {
+    border-radius: 0.75rem;
+    padding: 0.85rem 1.1rem;
+    border: 1px solid rgba(76, 110, 245, 0.2);
+}
+
+.form-hint {
+    font-size: 0.85rem;
+    color: #d9480f;
+    margin-top: 0.35rem;
+}
+
+.form-hint a {
+    color: #d9480f;
+    text-decoration: underline;
+}
+
+.empty-state {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: #4b5567;
+}
+
+.empty-state h5 {
+    font-weight: 600;
+    color: var(--berg-dark);
+}
+
