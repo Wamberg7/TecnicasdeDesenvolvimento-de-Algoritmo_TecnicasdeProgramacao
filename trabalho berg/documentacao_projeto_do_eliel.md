@@ -442,3 +442,8 @@ Para dúvidas ou problemas, verifique:
 **Versão**: 1.0  
 **Última atualização**: 2025
 
+**Desenvolvido por: Wamberg Gomes**  
+**Projeto: Sistema de Gerenciamento de Berg Lindo**  
+**Data: 2025**
+
+
